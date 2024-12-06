@@ -1,11 +1,7 @@
 [build]
-  command = "remix build"
-  functions = "netlify/functions"
+  command = "npm run build"
   publish = "public"
-
-[dev]
-  command = "remix watch"
-  port = 3000
+  functions = "netlify/functions"
 
 [[redirects]]
   from = "/*"
@@ -16,4 +12,3 @@
   for = "/build/*"
   [headers.values]
     "Cache-Control" = "public, max-age=31536000, s-maxage=31536000"
-
