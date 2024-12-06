@@ -3,5 +3,5 @@ module.exports = {
   serverBuildTarget: "netlify",
   server: "./server.js",
   ignoredRouteFiles: ["**/.*"],
-  serverBuildPath: "netlify/functions/server/build.js", // Add this line
+  serverBuildPath: "netlify/functions/server/build.js", // This is important
 };
