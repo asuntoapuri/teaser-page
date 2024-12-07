@@ -40,7 +40,7 @@ export default function Index() {
   }, [isHydrated]);
 
   return (
-    <main className="min-h-screen flex flex-col items-center justify-start px-8 py-10">
+    <main className="min-h-screen flex flex-col items-center sm:justify-center sm:py-0 px-8 py-10">
       <div className="max-w-2xl mx-auto text-center">
         <div ref={container} className="w-64 h-64 mx-auto mb-8" />
         <h1 className="text-4xl font-bold text-blue-600 mb-6">
