@@ -11,10 +11,10 @@ import "./styles/tailwind.css";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Something Amazing is Coming" },
+    { title: "Asuntoapuri coming soon" },
     {
       name: "description",
-      content: "We're working on something extraordinary",
+      content: "We're working on something extraordinary, stay tuned!",
     },
   ];
 };
