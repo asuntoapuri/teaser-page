@@ -1,5 +1,4 @@
-// app/root.tsx
-import type { LinksFunction, MetaFunction } from "@remix-run/node";
+import type { MetaFunction } from "@remix-run/node";
 import {
   Links,
   Meta,
@@ -8,9 +7,7 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 
-export const links: LinksFunction = () => [
-  { rel: "stylesheet", href: "/app/styles/tailwind.css" },
-];
+import "./styles/tailwind.css";
 
 export const meta: MetaFunction = () => {
   return [
